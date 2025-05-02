@@ -60,8 +60,6 @@ delet.addEventListener("click",deleteAll);
 
 function updateTaskCount() {
     const totalTasks = listContainer.querySelectorAll("li").length; // Hawlaha guud
-    // const completedTasks = listContainer.querySelectorAll("li.checked").length; // Hawlaha la dhammeystiray
-    // const pendingTasks = totalTasks - completedTasks; // Hawlaha aan lahammey dsirtin
     taskCount.innerText = totalTasks;
 
     // Muuji tirada guud, kuwa la dhammeystiray iyo kuwa aan la dhammeystirin
